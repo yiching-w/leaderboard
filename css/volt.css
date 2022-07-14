@@ -27485,18 +27485,13 @@ span.sidebar-icon {
 }
 
 .sidebarToggle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 60px;
     height: 60px;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%) !important;
-}
-
-.sidebarToggle img {
-    transform: translateY(-2px);
-    width: 40px;
-    max-height: 100%;
+    background-image: url(../assets/img/icons/podium.png);
+    background-size: 70%;
+    background-position: center 40%;
+    background-repeat: no-repeat;
 }
