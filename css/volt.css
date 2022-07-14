@@ -7110,16 +7110,6 @@ fieldset:disabled .btn {
     align-items: center;
 }
 
-.navbar-toggler {
-    padding: 0.4rem 0.6rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 0.0625rem solid transparent;
-    border-radius: 0.5rem;
-    transition: box-shadow 0.15s ease-in-out;
-}
-
 @media (prefers-reduced-motion: reduce) {
     .navbar-toggler {
         transition: none;
@@ -27495,9 +27485,18 @@ span.sidebar-icon {
 }
 
 .navbar-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 60px;
     height: 60px;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%) !important;
+}
+
+.navbar-toggler img {
+    transform: translateY(-2px);
+    width: 70%;
+    max-height: 100%;
 }
