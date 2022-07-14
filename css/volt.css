@@ -20900,7 +20900,7 @@ fieldset:disabled .btn {
     text-transform: uppercase;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 768.98px) {
     .sidebar {
         width: 230px;
     }
