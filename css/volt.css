@@ -27484,7 +27484,7 @@ span.sidebar-icon {
     background-position: center;
 }
 
-.navbar-toggler {
+.sidebarToggle {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27495,7 +27495,7 @@ span.sidebar-icon {
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%) !important;
 }
 
-.navbar-toggler img {
+.sidebarToggle img {
     transform: translateY(-2px);
     width: 40px;
     max-height: 100%;
